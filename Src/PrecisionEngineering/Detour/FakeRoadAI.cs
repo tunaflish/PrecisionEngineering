@@ -35,12 +35,7 @@ namespace PrecisionEngineering.Detour
 
         public static float GetLengthSnap(RoadAI roadAi)
         {
-            if (!SnapController.EnableLengthSnapping)
-            {
-                return 0f;
-            }
-
-            return roadAi.m_enableZoning ? 8f : 0f;
+            return 8;
         }
     }
 }

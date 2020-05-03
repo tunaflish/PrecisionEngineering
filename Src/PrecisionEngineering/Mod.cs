@@ -7,7 +7,7 @@ namespace PrecisionEngineering
     {
         public string Name
         {
-            get { return "Precision Engineering"; }
+            get { return "Precision Engineering - Length snapping fix"; }
         }
 
         public string Description
@@ -15,7 +15,7 @@ namespace PrecisionEngineering
             get
             {
                 return
-                    "Build with precision. Hold CTRL to enable angle snapping, SHIFT to show more information, ALT to snap to guide-lines.";
+                    "Build with precision. Hold CTRL to enable angle snapping, SHIFT to show more information, ALT to snap to guide-lines. Length snapping for non-zoneable networks allowed";
             }
         }
 
